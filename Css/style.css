@@ -1,0 +1,31 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background-image: url("images/about2.jpg");
+    background-size: cover; /* Adjusts the size of the background image */
+            background-repeat: no-repeat;
+ 
+    }
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+
+    body{
+        overflow:visible;
+
+          
+        
+        
+    }
+
+  
+  
+ 
+  
+    

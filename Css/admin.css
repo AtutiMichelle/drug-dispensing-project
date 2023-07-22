@@ -1,0 +1,200 @@
+*{
+  font-family:'Times New Roman', Times, serif;
+  
+}
+:root {
+    --main-bg-color: #000a9d;
+    --main-text-color: #000a9d;
+    --second-text-color: #000000;
+    --second-bg-color: #c1c5ef;
+  }
+  
+  .primary-text {
+    color: var(--main-text-color);
+  }
+  
+  .second-text {
+    color: var(--second-text-color);
+  }
+  
+  .primary-bg {
+    background-color: var(--main-bg-color);
+  }
+  
+  .secondary-bg {
+    background-color: var(--second-bg-color);
+  }
+  
+  .rounded-full {
+    border-radius: 100%;
+  }
+  
+  #wrapper {
+    overflow-x: hidden;
+    
+   
+  }
+  
+  #sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    background-image: linear-gradient(
+      to right,
+     
+      #fafbfe,
+      #fffdfd,
+      #ececec,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #a6a9ff
+    );
+   
+    
+  }
+  
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.5rem;
+  }
+  
+  #sidebar-wrapper .list-group {
+    width: 15rem;
+    font-size: 20px;
+  }
+  
+  #page-content-wrapper {
+    min-width: 200vw;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+  }
+  
+  #menu-toggle {
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .list-group-item {
+    border: none;
+    padding: 20px 30px;
+    font-size: 20px;
+   
+  }
+  
+  .list-group-item.active {
+    background-color: transparent;
+    color: var(--main-text-color);
+    font-weight: bolder;
+    border: none;
+    font-size: 20px;
+  }
+
+  .dropdown-menu{
+    font-size: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+      font-size: 20px;
+    }
+  
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+      font-size: 20px;
+    }
+  
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -15rem;
+      font-size: 20px;
+    }
+  }
+
+  .cards{
+    margin-top: 70px;
+    width: 100%;
+    padding:5px 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:40px ;
+}
+
+.cards .card{
+    background: linear-gradient(45deg  ,#020bf8 ,#ffffff);
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+
+
+.card-name{
+    color: #000000;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
